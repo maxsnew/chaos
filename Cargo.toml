@@ -4,14 +4,11 @@ name = "chaos"
 version = "0.0.1"
 authors = ["Max New <maxsnew@gmail.com>"]
 
-[dependencies.graphics]
-git = "https://github.com/PistonDevelopers/rust-graphics"
+[dependencies.opengl_graphics]
+git = "https://github.com/pistondevelopers/opengl_graphics"
 
 [dependencies.piston]
 git = "https://github.com/PistonDevelopers/piston"
 
 [dependencies.sdl2_game_window]
 git = "https://github.com/PistonDevelopers/sdl2_game_window"
-
-[dependencies.opengl_graphics]
-git = "https://github.com/pistondevelopers/opengl_graphics"
